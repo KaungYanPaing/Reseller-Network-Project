@@ -1,0 +1,436 @@
+/*----------Common CSS----------*/
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Share', cursive;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #FEFCE5;
+	background-color: #1C1C1F;
+}
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*Header*/
+.header {
+	background-color: #000;
+	overflow: hidden;
+}
+
+.header ul li {
+	float: left;
+	margin-right: 60px;
+}
+
+.header ul li #title {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 29px;
+	color: #FB9902;
+	margin-right: 354px;
+}
+
+.small {
+	vertical-align:super;
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+.header ul li a {
+	font-size: 15px;
+	display: block;
+	height: 90px;
+	line-height: 90px;
+	color: #E6D9C8;
+	text-transform: uppercase;
+}
+
+.header ul li a:hover {
+	color: #FB9902;
+}
+
+
+/*----------Main-Banner----------*/
+.main-banner {
+	width: 1600px;
+	height: 400px;
+	background: url("../img/mainbanner.jpg") no-repeat;
+	position: relative;
+}
+
+.main-banner h1 {
+	position: absolute;
+	width: 26%;
+	top: 34%;
+	left: 2%;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.8) none;
+	font-size: 50px;
+	padding: 20px;
+}
+
+.main-banner p {
+	position: absolute;
+	overflow: hidden;
+	width: 26%;
+	top: 46%;
+	left: 2%;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.8) none;
+	padding: 20px;
+}
+
+/*-----About-Banner-----*/
+.about-banner {
+	width: 1600px;
+	height: 400px;
+	background: url("../img/aboutbanner.jpg");
+	position: relative;
+}
+.about-banner h1 {
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	color: #fff;
+	font-size: 30px;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.8) none;
+	border-radius: 10px;
+}
+
+/*-----Contacts-Banner-----*/
+.contacts-banner {
+	width: 1600px;
+	height: 370px;
+	background: url("../img/contact.jpg");
+	position: relative;
+}
+.contacts-banner h1 {
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	color: #fff;
+	font-size: 30px;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.8) none;
+	border-radius: 10px;
+}
+
+
+/*----------Main-Section(Part-1)----------*/
+.main-section {
+	height: 400px;
+}
+
+.section-img-box,.section-about-box {
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.section-img-box {
+	padding: 20px;
+	width: 30%;
+	overflow: hidden;
+}
+
+.section-about-box {
+	padding: 20px;
+	width: 70%;
+	color: #E6D9C8;
+	background: rgba(0, 0, 0, 0.3) none;
+}
+
+/*----------Main-Section(Part-2)----------*/
+.section-img-box2,.section-about-box2 {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.section-img-box2 {
+	padding: 20px;
+	width: 30%;
+}
+.section-about-box2 {
+	padding: 20px;
+	width: 70%;
+	color: #E6D9C8;
+	background: rgba(0, 0, 0, 0.3) none;
+}
+
+/*-----AboutUs-Section(Part-1)-----*/
+.about-section {
+	height: 500px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.about-section-box {
+	text-align: center;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.3) none;
+	padding-bottom: 20px;
+}
+
+.about-img-box {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.about-section h2 {
+	color: #FB9902;
+}
+
+.about-section-box p {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+/*-----About Section(Part-2)-----*/
+
+.about-section-box1,.about-section-box2,.about-section-box3 {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 30px;
+	width: 30%;
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.3) none;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.about-section-box1 {
+	margin-right: 60px;
+}
+
+.about-section-box2 {
+	margin-right: 60px;
+
+}
+
+
+
+/*----------Contacts Section----------*/
+.contacts-container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.contacts-section {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 100%;
+}
+
+.contacts-form, .location-form {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.contacts-form {
+	width: 50%;
+}
+
+/*-----Contacts Form-----*/
+
+.contacts {
+	width: 400px;
+	background: #000;
+	border-radius: 10px;
+	padding: 50px;
+	font-size: 15px;
+}
+.contacts label {
+	color: #fff;
+	padding: 10px;
+}
+.contacts h1 {
+	color: #FB9902;
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+}
+.contacts input {
+	width: 300px;
+	height: 40px;
+	padding: 8px;
+	color: #FB9902;
+	background-color: #131313;
+	border-radius: 5px;
+	border: none;
+}
+.contacts textarea {
+	width: 300px;
+	height: 90px;
+	padding: 8px;
+	color: #FB9902;
+	background-color: #131313;
+	border-radius: 5px;
+	border: none;
+}
+#contacts-form-bottom {
+	margin-top: 10px;
+	padding: 10px;
+	width: 300px;
+	color: #fff;
+	background-color: #FB9902;
+	border-color: #FB9902;
+	border-radius: 5px;
+	font-family: 'Share', cursive;
+	font-size: 15px;
+
+}
+/*-----contacts-form-bottom-hover-----*/
+#contacts-form-bottom:hover {
+	opacity: 0.8;
+}
+
+
+
+/*-----location-form-----*/
+.location-form {
+	width: 50%;
+	margin-bottom: 50px;
+	background: #000;
+	border-radius: 10px;
+}
+.location-form h2 {
+	color: #FB9902;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+/*-----Google Map-----*/
+.mapouter {
+	margin: 20px 100px auto;
+	position:relative;
+	text-align: right;
+	height:300px;
+	width:300px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	border-radius: 150px;
+	height:300px;
+	width:300px;
+}
+
+/*-----Info-----*/
+.info {
+	padding: 60px;
+}
+.info h1 {
+	color: #FB9902;
+}
+.info p {
+	color: #FB9902;
+}
+
+
+
+
+/*----------Footer----------*/
+
+.footer {
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+	background-color: #000;
+}
+.footer a {
+	color: #FB9902;
+	font-size: 20px;
+}
+
+.part1,.part2,.part3,.part4 {
+	float: left;
+	margin-top: 20px;
+}
+
+.part1 {
+	padding: 30px;
+	width: 25%;
+}
+
+.part2 {
+	padding: 30px;
+	width: 25%;
+}
+
+.part3 {
+	padding: 30px;
+	width: 25%;
+}
+
+.part4 {
+	padding: 30px;
+	width: 25%;
+}
+
+.part4 a {
+	font-size: 18px;
+}
+
+.foot {
+	overflow: hidden;
+	width: 100%;
+	height: 50px;
+	line-height: 25px;
+	text-align: center;
+	color: #FB9902;
+	background-color: #000;
+	border-top: 1px solid #0A0A0D;
+}
+
+
+/*----------Hover----------*/
+
+#facebook:hover {
+	color: #4565A9;
+}
+
+#googleplus:hover {
+	color: #D64937;
+}
+
+#twitter:hover {
+	color: #1C9CEA;
+}
+
+#instagram:hover {
+	color: transparent;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background-clip: text;
+	-webkit-background-clip: text;
+}
